@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="book_an_appoinment">book an appoinment</string>
+    <string name="favorite">favorite</string>
+    <string name="online_visit">online visit</string>
+    <string name="home_consultation">home consultation</string>
+    <string name="city">Tehran</string>
+    <string name="name">Fateme</string>
+</resources>
