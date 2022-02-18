@@ -83,6 +83,7 @@
             android:layout_height="0dp"
             android:backgroundTint="@color/first"
             android:text="@string/book_an_appoinment"
+            android:fontFamily="cursive"
             android:textSize="13dp"
             app:cornerRadius="20dp"
             app:icon="?attr/actionModePasteDrawable"
