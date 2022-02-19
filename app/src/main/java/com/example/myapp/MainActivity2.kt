@@ -15,9 +15,6 @@ class MainActivity2 : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-val buttonList =  arrayListOf<Button>()
-
-
         binding.button.text= Hospital.drArray[0].name
         binding.button2.text= Hospital.drArray[1].name
         binding.button3.text= Hospital.drArray[2].name
@@ -33,13 +30,6 @@ val buttonList =  arrayListOf<Button>()
         binding.button3.setOnClickListener{
             goToActivity(Hospital.drArray[2])
         }
-
-
-        buttonList.add(binding.button)
-        buttonList.add(binding.button2)
-        buttonList.add(binding.button3)
-
-
     }
 
     private fun goToActivity(doctor : Doctor) {
@@ -47,6 +37,4 @@ val buttonList =  arrayListOf<Button>()
         intent.putExtra("doctor",doctor )
         startActivity(intent)
     }
-
-
 }
