@@ -16,23 +16,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
+
+        <TextView
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="1" />
+            android:text="Doctor's List:"
+            android:textSize="35dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="cursive"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            app:cornerRadius="100dp"
+            android:backgroundTint="@color/first"/>
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2" />
+            android:text="2"
+            app:cornerRadius="100dp"
+            android:backgroundTint="@color/third"/>
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="3" />
+            android:text="3"
+            app:cornerRadius="100dp"
+            android:backgroundTint="@color/second"/>
     </LinearLayout>
 
 

@@ -25,10 +25,12 @@ class MainActivity2 : AppCompatActivity() {
 
         binding.button2.setOnClickListener{
             goToActivity(Hospital.drArray[1])
+
         }
 
         binding.button3.setOnClickListener{
             goToActivity(Hospital.drArray[2])
+
         }
     }
 
@@ -37,4 +39,5 @@ class MainActivity2 : AppCompatActivity() {
         intent.putExtra("doctor",doctor )
         startActivity(intent)
     }
+
 }
