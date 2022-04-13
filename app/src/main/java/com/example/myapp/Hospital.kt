@@ -2,10 +2,7 @@ package com.example.myapp
 
 object Hospital {
     val drArray = arrayListOf<Doctor>()
-    init
-    {
-        testAddDoctor()
-    }
+
 
 
 

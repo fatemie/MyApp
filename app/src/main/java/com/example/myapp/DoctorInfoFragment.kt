@@ -25,18 +25,18 @@ class DoctorInfoFragment : Fragment() {
         binding = FragmentDoctorInfoBinding.inflate(inflater, container, false)
         val view = binding.root
 
-        initViews()
+       initView()
 
         return view
     }
 
 
-    private fun initViews() {
-        var doctor = activity?.intent?.getParcelableExtra<Doctor>("doctor")
-        binding.textViewName.text = doctor?.name
-        binding.textViewAddress.text = doctor?.address.toString()
-        binding.textViewPhoneNumber.text = doctor?.phoneNumber
-    }
+   fun initView(){
+       var doctor = activity?.intent?.getParcelableExtra<Doctor>("doctor")
+       binding.textViewName.text = doctor?.name
+       binding.textViewAddress.text = doctor?.address.toString()
+       binding.textViewPhoneNumber.text = doctor?.phoneNumber
+   }
 
 
 }

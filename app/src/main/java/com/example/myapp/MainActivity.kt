@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
         var doctor = intent.getParcelableExtra<Doctor>("doctor")
         title = doctor?.name
 
-        if(doctor?.gender == Gender.male){
-            binding.imageView9.imageAlpha = R.drawable.doctormale
-        }
+//        if(doctor?.gender == Gender.male){
+//            binding.imageView9.imageAlpha = R.drawable.doctormale
+//        }
 
     }
 }

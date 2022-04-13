@@ -49,6 +49,14 @@
             android:text="3"
             app:cornerRadius="100dp"
             android:backgroundTint="@color/second"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvDoctorList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
     </LinearLayout>
 
 
